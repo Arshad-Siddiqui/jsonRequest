@@ -1,4 +1,4 @@
-package main
+package jsonRequest
 
 import (
 	"fmt"
