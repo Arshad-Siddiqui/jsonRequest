@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-func postJsonReq(requestRoute string, requestObject interface{}) (*http.Request, error) {
+func PostJsonReq(requestRoute string, requestObject interface{}) (*http.Request, error) {
 	req, err := http.NewRequest("POST", requestRoute, nil) // "/"
 	if err != nil {
 		fmt.Println(err)
